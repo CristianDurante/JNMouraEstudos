@@ -25,17 +25,61 @@ namespace Votacao
             Console.WriteLine();
             int voto = int.Parse(Console.ReadLine());
 
+            #region solução 1
+
+            //if (voto > 0 && voto < 5)
+            //{
+            //    if (voto == 1) Console.WriteLine("Voto : (Cristian)");
+            //    if (voto == 2) Console.WriteLine("Voto : (Neymar)");
+            //    if (voto == 3) Console.WriteLine("Voto : (Ronaldinho)");
+            //    if (voto == 4) Console.WriteLine("Voto : (CR7)");
+            //}
+            //else if (voto < 7)
+            //{
+            //    if (voto == 5) Console.WriteLine("Voto : Voto nulo contabilizado...");
+            //    if (voto == 6) Console.WriteLine("Voto : Voto branco contabilizado...");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Voto inválido...");
+            //}
+
+            //Console.WriteLine("Pressione Enter para finalizar o programa....");
+            //Console.ReadLine();
+
+            #endregion
+
+            #region solução 2
+
             if (voto > 0 && voto < 5)
             {
-                if (voto == 1) Console.WriteLine("Voto : (Cristian)");
-                if (voto == 2) Console.WriteLine("Voto : (Neymar)");
-                if (voto == 3) Console.WriteLine("Voto : (Ronaldinho)");
-                if (voto == 4) Console.WriteLine("Voto : (CR7)");
+                switch (voto)
+                {
+                    case 1:
+                        Console.WriteLine("Voto : (Cristian)");
+                        break;
+                    case 2:
+                        Console.WriteLine("Voto : (Neymar)");
+                        break; 
+                    case 3:
+                        Console.WriteLine("Voto : (Ronaldinho)");
+                        break;
+                    case 4:
+                        Console.WriteLine("Voto : (CR7)");
+                        break;
+                }
             }
             else if (voto < 7)
             {
-                if (voto == 5) Console.WriteLine("Voto : Voto nulo contabilizado...");
-                if (voto == 6) Console.WriteLine("Voto : Voto branco contabilizado...");
+                switch (voto)
+                {
+                    case 5:
+                        Console.WriteLine("Voto : (Nulo)");
+                        break;
+                    case 6:
+                        Console.WriteLine("Voto : (Branco)");
+                        break;
+                }
             }
             else
             {
@@ -45,6 +89,7 @@ namespace Votacao
             Console.WriteLine("Pressione Enter para finalizar o programa....");
             Console.ReadLine();
 
+            #endregion
         }
     }
 }
