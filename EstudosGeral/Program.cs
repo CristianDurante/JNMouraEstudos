@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace EstudosGeral
 {
@@ -81,14 +82,33 @@ namespace EstudosGeral
 
             #endregion
 
-            #region Problema "consumo"
+            #region Problema "medidas"
 
-            Console.WriteLine("---Consumo---");
-            Console.WriteLine();
+            //Console.WriteLine("---medidas---");
+            //Console.WriteLine();
 
+
+            //Console.Write("Digite a medida A: ");
+            //double A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            //Console.Write("Digite a medida B: ");
+            //double B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            //Console.Write("Digite a medida C: ");
+            //double C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            //double areaQuadrado = A * A;
+            //double areaTriangulo = (A * B) / 2;
+            //double areaTrapezio = (A + B) * C / 2;
+
+            //Console.WriteLine($"AREA DO QUADRADO = {areaQuadrado:F4}");
+            //Console.WriteLine($"AREA DO TRIANGULO = {areaTriangulo:F4}");
+            //Console.WriteLine($"AREA DO TRAPEZIO = {areaTrapezio:F4}");
 
 
             #endregion
+
+
 
         }
     }
