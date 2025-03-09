@@ -52,14 +52,18 @@ namespace Posto
                         Console.WriteLine($"Preço Total: {precoTotalAlcool:F2}");
                         Console.WriteLine($"Preço com desconto de 2%: {precoTotalAlcool - descontoAlcool:F2}");
                     }
-                    else
+                    else if(litrosCombustivel > 0 && litrosCombustivel > 20)
                     {
                         double descontoAlcool = precoTotalAlcool * 0.05;
                         Console.WriteLine($"Tipo do combustível: Álcool ");
                         Console.WriteLine($"Preço Total: {precoTotalAlcool:F2}");
                         Console.WriteLine($"Preço com desconto de 5%: {precoTotalAlcool - descontoAlcool:F2}");
                     }
-                break;
+                    else
+                    {
+                        Console.WriteLine("Quantidade invalida!");
+                    }
+                    break;
                 case 2:
                     if (litrosCombustivel > 0 && litrosCombustivel <= 20)
                     {
@@ -68,12 +72,16 @@ namespace Posto
                         Console.WriteLine($"Preço Total: {precoTotalGasolina:F2}");
                         Console.WriteLine($"Preço com desconto de 3%: {precoTotalGasolina - descontoGasolina:F2}");
                     }
-                    else
+                    else if(litrosCombustivel > 0 && litrosCombustivel > 20)
                     {
                         double descontoGasolina = precoTotalGasolina * 0.06;
                         Console.WriteLine($"Tipo do combustível: Gasolina ");
                         Console.WriteLine($"Preço Total: {precoTotalGasolina:F2}");
                         Console.WriteLine($"Preço com desconto de 6%: {precoTotalGasolina - descontoGasolina:F2}");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Quantidade invalida!");
                     }
                 break;
                 default:

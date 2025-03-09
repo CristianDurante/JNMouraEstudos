@@ -24,7 +24,7 @@ namespace Notas
             int faltas = int.Parse(Console.ReadLine());
             Console.WriteLine();
 
-            if (faltas > 0 && faltas < LIMITEFALTAS)
+            if (faltas > 0 && faltas <= LIMITEFALTAS)
             {
                 Console.Write("Digite a primeira nota: ");
                 double nota1 = double.Parse(Console.ReadLine());
