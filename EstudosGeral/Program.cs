@@ -237,16 +237,60 @@ namespace EstudosGeral
 
             #endregion
 
-            #region arrays e matriz
+            #region Arrays Numeros Pares
 
-            int[] numeros = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            //Console.WriteLine("-----Arrays Numeros Pares------");
 
-            Console.WriteLine(numeros[3] + numeros[2]);
+            //int[] vet = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+            //for (int i = 0; i < vet.Length; i++)
+            //{
+            //    if(vet[i] % 2 == 0)
+            //    {
+            //        Console.WriteLine(vet[i]);
+            //    }
+            //}
+
+            #endregion
+
+            #region Arrays Numeros Impares
+
+            //int[] vet = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+            //for(int i = 0; i < vet.Length; i++)
+            //{
+            //    if (vet[i] % 2 != 0)
+            //    {
+            //        Console.WriteLine(vet[i]);
+            //    }
+            //}
+
+            #endregion
+
+            #region Arrays Ordenar numeros "Array.Sort(vet)"
+
+            //int[] vet = { 1, 9, 5, 4, 2, 3, 7, 8, 10, 6 };
+
+            //for (int i = 0; i < vet.Length; i++)
+            //{
+            //    Console.WriteLine(vet[i]);
+            //}
+
+            //Array.Sort(vet);
+
+            //Console.WriteLine("Numeros em ordem de 1 a 10");
+            //for (int i = 0; i < vet.Length; i++)
+            //{
+            //    Console.WriteLine(vet[i]);
+            //}
+
+            #endregion
+
+            #region Arrays Ordenar numeros
 
 
 
             #endregion
-
 
         }
     }
