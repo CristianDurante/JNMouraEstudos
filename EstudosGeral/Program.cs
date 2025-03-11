@@ -229,11 +229,14 @@ namespace EstudosGeral
             //int numeroDePessoas = 0;
             //bool deuCerto;
 
-            //do
+            //Console.Write("Número de pessoas que desejam utilizá-lo:");
+            //deuCerto = int.TryParse(Console.ReadLine(), out numeroDePessoas);
+
+            //while (deuCerto == false || numeroDePessoas < 0)
             //{
             //    Console.Write("Número de pessoas que desejam utilizá-lo:");
             //    deuCerto = int.TryParse(Console.ReadLine(), out numeroDePessoas);
-            //} while (deuCerto == false || numeroDePessoas < 0);
+            //}
 
             #endregion
 
@@ -245,7 +248,7 @@ namespace EstudosGeral
 
             //for (int i = 0; i < vet.Length; i++)
             //{
-            //    if(vet[i] % 2 == 0)
+            //    if (vet[i] % 2 == 0)
             //    {
             //        Console.WriteLine(vet[i]);
             //    }
@@ -286,11 +289,48 @@ namespace EstudosGeral
 
             #endregion
 
-            #region Arrays Ordenar numeros
+            #region Arrays Reverter de 1 a 10 por 10 a 1
 
+            //int[] vet = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
+            //for (int i = 0; i < vet.Length; i++)
+            //{
+            //    Console.WriteLine(vet[i]);
+            //}
+            //Console.WriteLine();
+
+            //Array.Reverse(vet);
+
+            //Console.WriteLine("Valores Invertidos");
+            //for (int i = 0; i < vet.Length; i++)
+            //{
+            //    Console.WriteLine(vet[i]);
+            //}
 
             #endregion
+
+            #region Arrays Troca de Posição
+
+            //int[] vet = { 10, 20, 30, 40, 50 };
+
+            //for (int i = 0; i < vet.Length; i++)
+            //{
+            //    Console.WriteLine(vet[i]);
+            //}
+
+            //int vetTemp = vet[1];
+            //vet[1] = vet[3];
+            //vet[3] = vetTemp;
+
+            //Console.WriteLine("Posição trocada");
+            //Console.WriteLine();
+            //for (int i = 0; i < vet.Length; i++)
+            //{
+            //    Console.WriteLine(vet[i]);
+            //}
+
+            #endregion
+
 
         }
     }
