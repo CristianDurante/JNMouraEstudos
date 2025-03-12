@@ -6,20 +6,34 @@ namespace Senha
     {
         static void Main(string[] args)
         {
+            #region Estrutura repetição If Else "Senha"
 
-            Console.WriteLine("--Senha--");
-            Console.WriteLine();
+            //Console.WriteLine("--Senha--");
+            //Console.WriteLine();
 
-            Console.WriteLine("Digite a senha: ");
-            string senha = Console.ReadLine();
+            //Console.WriteLine("Digite a senha: ");
+            //string senha = Console.ReadLine();
 
             
-            if(senha == "123")
-            {
-                Console.WriteLine("Senha Correta");
-            }
+            //if(senha == "123")
+            //{
+            //    Console.WriteLine("Senha Correta");
+            //}
 
-           // Console.WriteLine((senha == "123") ? "Senha Correta" : "Senha incorreta");
+            #endregion
+
+            #region Estrutura repetição While "Senha" 
+
+            //Console.Write("Digite uma senha: ");
+            //string senha = Console.ReadLine();
+
+            //while (senha != "1234")
+            //{
+            //    Console.WriteLine("Senha invalida! Digite novamente..");
+            //    senha = Console.ReadLine();
+            //}
+
+            #endregion
 
         }
     }

@@ -128,19 +128,6 @@ namespace EstudosGeral
 
             #endregion
 
-            #region Estrutura repetição "Senha"
-
-            //Console.Write("Digite uma senha: ");
-            //string senha = Console.ReadLine();
-
-            //while (senha != "1234")
-            //{
-            //    Console.WriteLine("Senha invalida! Digite novamente..");
-            //    senha = Console.ReadLine();
-            //}
-
-            #endregion
-
             #region Estrutura repetição do while "tabuada"
 
             //Console.Write("Digite a tabuada: ");
